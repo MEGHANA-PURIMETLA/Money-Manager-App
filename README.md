@@ -1,4 +1,4 @@
-In this project, let's build a **Money Manager** app by applying the concepts we have learned till now.
+In this project, i build a **Money Manager** app by applying the concepts i have learned till now.
 
 ### Refer to the image below:
 
@@ -33,7 +33,7 @@ In this project, let's build a **Money Manager** app by applying the concepts we
 <summary>Functionality to be added</summary>
 <br/>
 
-The app must have the following functionalities
+The app has following functionalities
 
 - Initially, Balance Amount, Income Amount, and Expenses Amount should be `0`
 - Balance Amount should be calculated by removing the Expenses Amount from the Income Amount in the list of transactions
