@@ -1,0 +1,131 @@
+.app-container {
+  padding: 30px;
+  font-family: Roboto;
+  background-color: #f1f5f9;
+}
+
+/* TOP CARD */
+.top-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 30px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+.top-container h1 {
+  color: #1e293b;
+  margin-bottom: 8px;
+}
+
+.top-container p {
+  color: #475569;
+}
+
+.top-container span {
+  color: #0b69ff;
+  font-weight: 500;
+}
+
+/* BOTTOM SECTION */
+.bottom-container {
+  display: flex;
+  gap: 20px;
+}
+
+/* FORM */
+.form {
+  width: 40%;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #cbd5e1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #334155;
+}
+
+.form label {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #7e858e;
+}
+
+.form input,
+.form select {
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 1px solid #d7dfe9;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form button {
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 80px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* HISTORY */
+.history {
+  width: 60%;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #cbd5e1;
+}
+
+.history h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #334155;
+}
+
+.history ul {
+  padding: 0;
+  margin: 0;
+}
+
+.name-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.name-input input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.name-input button {
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.name-display {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.name-display button {
+  background: transparent;
+  border: 1px solid #0b69ff;
+  color: #0b69ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
